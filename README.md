@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Simple Note Taking App
+This is a simple web application for taking notes, built using Next.js, Material-UI, and Tailwind CSS. It demonstrates front-end development skills including CRUD operations, pagination, search functionality, and responsive design, with local storage for data persistence.
 
-## Getting Started
+Features
+Create New Notes: Add new notes via a form.
+View Notes with Pagination: Display all notes with pagination (10 notes per page).
+Edit Existing Notes: Modify existing notes.
+Delete Notes: Remove notes permanently.
+Search Notes: Filter notes by title or content.
+Timestamps: View notes with their respective creation or last modification time.
+Tech Stack
+Framework/Library: Next.js, React.js
+UI Components: Material-UI
+Styling: Tailwind CSS
+Data Persistence: Local Storage
+Setup and Running Instructions
+Prerequisites
+Node.js (version 12 or higher)
+npm (version 6 or higher) or yarn (version 1.22 or higher)
+Installation
+Clone the repository:
 
-First, run the development server:
+bash
+Copy code
+git clone https://github.com/yourusername/simple-note-taking-app.git
+cd simple-note-taking-app
+Install dependencies:
 
-```bash
+bash
+Copy code
+npm install
+or
+
+bash
+Copy code
+yarn install
+Running the Application
+Start the development server:
+
+bash
+Copy code
 npm run dev
-# or
+or
+
+bash
+Copy code
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open your browser and navigate to http://localhost:3000.
